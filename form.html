@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<br>
+<br>
+<br>
+<br>
+<center>
+<body>
+
+    <!-- usint type text we can make a form using form tag which will create text box.user can give their data. if we use password type then what user will will write that will not be shown  -->
+   <form action="/action.php" >
+    <input type="text" placeholder="user_name">
+    <br>
+   <input type="password" placeholder="password">
+
+    <br>
+    <p>Are you single?</p>
+    <!-- using type radio we can create multiple choice question where user can choose only one option -->
+    <input type="radio" value="Yes" name="class" id="103">Yes
+    <input type="radio" value="No" name="class" id="104">No
+ 
+    <!-- if we use lebel for different radio type input then user can select any option by clicking the text also but before that user have to select the circle to choose a option -->
+   <p>Which class do you read in?</p>
+
+   <label for="101">
+    <input type="radio" value="first year" name="first" id="101">first year
+      </label>
+
+      <label for="102">
+    <br>
+    <input type="radio" value="Second year" name="first" id="102">Second year
+   </label>
+
+
+   <!-- if we use type=checkbox then we can select multiple option together  -->
+  <p> Choose your favourite Subjects:</p>
+  <label for="111">
+    <input type="checkbox" value="math" name="subject" id="111">Math
+  </label>
+
+  <label for="112">
+    <input type="checkbox" value="Physics" name="subject" id="112">Physics
+  </label>
+
+  <label for="113">
+    <input type="checkbox" value="Chemisry" name="subject" id="113">Chemisty
+  </label>
+
+  <label for="114">
+    <input type="checkbox" value="Biology" name="subject" id="114">Biology
+  </label>
+
+  <label for="115">
+    <input type="checkbox" value="English" name="subject" id="115">English
+</label>
+
+    <label for="116">
+    <input type="checkbox" value="Computer Science" name="subject" id="116">Computer science
+  </label>
+ <br>
+
+ <!-- <select > tag is used to make  a select option from a predefined answers -->
+    <p>Select Your City:</p>
+    <select>
+        <option value="City">Chittagong</option>
+        <option value="City">Dhaka</option>
+        <option value="City">Shylet</option>
+        <option value="City">Rangpur</option>
+        <option value="City">Rajshahi</option>
+    </select>
+
+<br>
+ <br>
+
+<!-- textarea tag is used to  make a box to take a feedback from user,placeholder is predefined text  -->
+ <textarea type="feedback" placeholder="Give your valuable feedback here"></textarea>
+ <br>
+ <br>
+ <input type="submit" value="submit">
+</form>
+</center>
+
+</body>
+
+</html>
